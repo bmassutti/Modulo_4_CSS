@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:'AdLaM Display', sans-serif;
 }
 
 body > header {
-    background-color: #243640;
+    background-color: #273f19;
     padding: 16px 0;
     color: #f5f6fa;
 }
@@ -44,6 +45,9 @@ header li a:hover {
 
 img {
     width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius:4px;
 }
 
 .articles article { 
@@ -65,13 +69,14 @@ section h2, .articles article {
 }
 
 .articles article a { 
-    background-color: blue;
+    background-color: #273f19;
     color: #fff;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
     margin-top: 8px;
+    border-radius: 8px;
 }
 
 .articles article a:hover {
@@ -87,9 +92,33 @@ section h2 {
 }
 
 section#sports { 
-    background-color: rgba(0, 255, 0, 0.2);
+    background-color: #edede9;
 }
 
 #sports .articles article a {
-    background-color: rgba(11, 82, 11, 0.8);
+    background-color: #5b8046;
+}
+
+section#economy { 
+    background-color: #c7b8a9;
+}
+
+#economy .articles article a {
+    background-color: rgb(30, 30, 32);
+}
+
+section#cinema { 
+    background-color: #bccab6;
+}
+
+#cinema .articles article a {
+    background-color: rgb(67, 92, 61);
+}
+
+section#dogs { 
+    background-color: #d4bfa8;
+}
+
+#dogs .articles article a {
+    background-color: rgb(66, 38, 21);
 }
